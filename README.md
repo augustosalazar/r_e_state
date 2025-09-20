@@ -16,3 +16,4 @@ An Expo-based React Native starter project demonstrating routing, state manageme
    npx expo start
    ```
 
+<img width="1080" height="2160" alt="image" src="https://github.com/user-attachments/assets/a9a71f5b-41e7-49c5-bbde-9bfd298aa258" />
