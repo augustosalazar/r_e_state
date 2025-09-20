@@ -1,5 +1,6 @@
 import React from "react";
 
+// 1. Crear el contexto con los valores por defecto
 export const AppContext = React.createContext({
     value: 0,
     increment: () => { },
@@ -8,7 +9,7 @@ export const AppContext = React.createContext({
 });
 
 
-
+// 2. Crear el proveedor del contexto
 export const CounterProvider = ({ children }: { children: React.ReactNode }) => {
     const [value, setValue] = React.useState(0);
 
